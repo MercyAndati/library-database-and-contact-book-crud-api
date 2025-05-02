@@ -114,9 +114,9 @@ contact-book-app/
 ##Usage
 1.Add a Contact:
 
-Fill in the contact form with name and email
+-Fill in the contact form with name and email
 
-Click "Add Contact"
+-Click "Add Contact"
 
 2.Add Phone Numbers:
 
@@ -133,12 +133,12 @@ Click "Add Contact"
 -Make changes and click "Update" or confirm deletion
 
 ##API Endpoints
-Method	Endpoint	Description
-GET	/api/contacts	Get all contacts
-POST	/api/contacts	Create new contact
-PUT	/api/contacts/:id	Update contact
-DELETE	/api/contacts/:id	Delete contact
-GET	/api/contacts/:contactId/phones	Get phone numbers for contact
-POST	/api/contacts/:contactId/phones	Add phone number to contact
-PUT	/api/phones/:id	Update phone number
-DELETE	/api/phones/:id	Delete phone number
+-Method	Endpoint	Description
+-GET	/api/contacts	Get all contacts
+-POST	/api/contacts	Create new contact
+-PUT	/api/contacts/:id	Update contact
+-DELETE	/api/contacts/:id	Delete contact
+-GET	/api/contacts/:contactId/phones	Get phone numbers for contact
+-POST	/api/contacts/:contactId/phones	Add phone number to contact
+-PUT	/api/phones/:id	Update phone number
+-DELETE	/api/phones/:id	Delete phone number
